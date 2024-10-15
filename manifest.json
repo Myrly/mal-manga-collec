@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Better MyAnimeList",
+  "version": "1.0",
+
+  "description": "An extension that aims to elevate a user's MyAnimeList utilization, through more collection-oriented options and a new UI. These custom options will use the \"notes\" field inside a manga.",
+
+  "icons": {
+    "48": "icons/better-mal-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.myanimelist.net/*"],
+      "js": ["better-mal.js"]
+    }
+  ]
+}

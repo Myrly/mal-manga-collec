@@ -1,0 +1,6 @@
+{
+  "mangalist/*": [
+    "styles/list/list.css",
+    "styles/list/manga.css"
+  ]
+}
